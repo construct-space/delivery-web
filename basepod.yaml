@@ -1,0 +1,8 @@
+name: web
+server: bp.construct.delivery
+aliases:
+  - delivery.lisaos.dev
+type: static
+public: dist
+build:
+  command: bun run build
